@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="src\Runner.cu" />
+    <CudaCompile Include="src\Vectorization.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CPU.h" />
+    <ClInclude Include="src\File.h" />
+    <ClInclude Include="src\Runner.h" />
+    <ClInclude Include="src\Settings.h" />
+    <ClInclude Include="src\Vectorization.cuh" />
+  </ItemGroup>
+</Project>

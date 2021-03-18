@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+        "name": "x86-Debug",
+        "generator": "Unix Makefiles",
+        "configurationType" : "Debug",
+        "buildRoot":  "${env.LOCALAPPDATA}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs":  "",
+        "buildCommandArgs": "-m -v:minimal"
+        },
+        {
+        "name": "x86-Release",
+        "generator": "Unix Makefiles",
+        "configurationType" : "Release",
+        "buildRoot":  "${env.LOCALAPPDATA}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs":  "",
+        "buildCommandArgs": "-m -v:minimal"
+        },
+        {
+        "name": "x64-Debug",
+        "generator": "Unix Makefiles",
+        "configurationType" : "Debug",
+        "buildRoot":  "${env.LOCALAPPDATA}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs":  "",
+        "buildCommandArgs": "-m -v:minimal"
+        },
+        {
+        "name": "x64-Release",
+        "generator":  "Unix Makefiles",
+        "configurationType": "Release",
+        "buildRoot":  "${env.LOCALAPPDATA}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs":  "",
+        "buildCommandArgs": "-m -v:minimal"
+        }
+    ]
+}
